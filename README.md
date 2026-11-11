@@ -1,10 +1,10 @@
-📝 Formulário de Cadastro
+# Formulário de Cadastro
 
 Projeto de um formulário de cadastro desenvolvido com HTML5, CSS3 e JavaScript, com integração à API ViaCEP para consulta automática de endereços por meio do CEP informado pelo usuário.
 
 O objetivo do projeto é praticar conceitos fundamentais de desenvolvimento web, organização de arquivos, manipulação do DOM e consumo de APIs externas.
 
-📌 Sobre o projeto
+## Sobre o projeto
 
 O formulário permite que o usuário informe seus dados pessoais e de endereço.
 
@@ -12,7 +12,7 @@ Uma das principais funcionalidades é a consulta automática de CEP. Ao preenche
 
 O projeto foi desenvolvido com foco no aprendizado de desenvolvimento front-end.
 
-🚀 Funcionalidades
+## Funcionalidades
 Cadastro de nome.
 Cadastro de idade.
 Seleção da data de nascimento.
@@ -23,13 +23,14 @@ Identificação de CEP inválido.
 Identificação de CEP não encontrado.
 Tratamento de erros durante a consulta à API.
 Validação básica dos campos obrigatórios do formulário.
-🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 Tecnologia	Utilização
 HTML5	Estruturação do formulário
 CSS3	Estilização e organização visual
 JavaScript	Lógica e interatividade
 ViaCEP API	Consulta de endereços por CEP
-📂 Estrutura do projeto
+
+## Estrutura do projeto
 text
 FormularioCadastro/
 │
@@ -52,7 +53,8 @@ Formulario.js
 
 Contém a lógica responsável pela consulta do CEP, comunicação com a API ViaCEP, manipulação dos campos e tratamento de erros.
 
-🌐 Integração com a API ViaCEP
+
+## Integração com a API ViaCEP
 
 O projeto utiliza a API pública ViaCEP para consultar informações de endereço.
 
@@ -85,7 +87,7 @@ json
     "uf": "SP"
 }
 
-⚙️ Conceitos de JavaScript aplicados
+## Conceitos de JavaScript aplicados
 
 Durante o desenvolvimento foram utilizados os seguintes conceitos:
 
@@ -98,7 +100,8 @@ then(): trata as etapas de resolução da requisição assíncrona.
 response.json(): converte a resposta para o formato JSON.
 catch(): captura erros durante a requisição.
 value: permite acessar e modificar o conteúdo dos campos do formulário.
-💻 Como executar o projeto
+
+## Como executar o projeto
 Faça o download ou clone este repositório.
 Abra a pasta do projeto no Visual Studio Code.
 Confira se os arquivos HTML, CSS e JavaScript estão na mesma pasta.
@@ -108,7 +111,7 @@ Digite um CEP válido e saia do campo para testar a consulta automática.
 
 Importante: é necessário ter conexão com a internet para consultar a API ViaCEP.
 
-🧪 Exemplo de teste
+## Exemplo de teste
 
 Para testar a funcionalidade de consulta automática, utilize o CEP:
 
@@ -122,7 +125,7 @@ Rua: Praça da Sé
 Bairro: Sé
 Cidade: São Paulo
 Estado: SP
-📚 Objetivos de aprendizagem
+## Objetivos de aprendizagem
 
 Este projeto foi desenvolvido com os seguintes objetivos:
 
@@ -135,7 +138,7 @@ Entender o funcionamento de requisições HTTP utilizando fetch().
 Consumir uma API externa.
 Trabalhar com dados no formato JSON.
 Organizar arquivos e estruturar um projeto web.
-🔮 Melhorias futuras
+## Melhorias futuras
 
 Algumas funcionalidades que podem ser implementadas futuramente:
 
@@ -146,10 +149,10 @@ Melhorar a responsividade para dispositivos móveis.
 Implementar mensagens de validação diretamente na página.
 Adicionar uma tela de confirmação de cadastro.
 Criar um sistema de consulta e edição de cadastros.
-👨‍💻 Autor
+## Autor
 
 Projeto desenvolvido como atividade prática de aprendizado em desenvolvimento web.
 
 Tecnologias: HTML5 | CSS3 | JavaScript | API ViaCEP
 
-⭐ Se este projeto foi útil para seus estudos, deixe uma estrela no repositório!
+## Se este projeto foi útil para seus estudos, deixe uma estrela no repositório!
