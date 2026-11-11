@@ -1,4 +1,4 @@
-# Formulário de Cadastro
+## Formulário de Cadastro
 
 Projeto de um formulário de cadastro desenvolvido com HTML5, CSS3 e JavaScript, com integração à API ViaCEP para consulta automática de endereços por meio do CEP informado pelo usuário.
 
